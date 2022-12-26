@@ -1,4 +1,4 @@
-// 0т.
+// 15т.
 #include <iostream>
 
 const int MAX_SIZE=1024;
