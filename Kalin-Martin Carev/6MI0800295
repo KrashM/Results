@@ -1,0 +1,49 @@
+// 1ва - 0т.
+// 2ра - няма
+// 3та - няма
+#include <iostream>
+#include <cstring>
+
+bool ed(size_t n){
+  
+    int l;
+    bool result;
+    char array[1000];
+   //  Това няма да работи, защото въвеждаш n преди това.
+    std::cin.getline(array,1000);
+    std::cout<<"Enter a number" << std::endl;
+   //  Нямаш валидация за числото.
+    l = std::strlen(array);
+    for (int i = 0; i < l; i++)
+    {
+      // Това работи на база ascii стойността на символа.
+      // Не проверяваш самата цифра така.
+      // Плюс тук ако срещнеш нечетна цифра трябва да приключваш цикъла.
+      // Защото ако имаш числото 212.
+      // result = true
+      // result = false
+      // result = true
+      // И ще кажеш, че това число има само четни цифри, което не е вярно.
+       if (array[i]%2==0)
+       {
+        result =true;
+       }
+       else
+       {
+        result = false;
+       }
+    }
+       return result;
+    
+}
+    
+   //  Иска ти се да въведеж string, не число.
+   // Плюс това защо ти е изобщо това n?
+    int main()
+    { int n;
+ std::cout<<"Enter n";
+ std::cin>>n;
+ std::cout<<ed();
+ return 0;
+    }
+    
