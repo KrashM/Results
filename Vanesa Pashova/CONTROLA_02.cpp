@@ -1,6 +1,8 @@
 // CONTROLA_02.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+// 15т.
+
 #include <iostream>
 #include <cstring>
 

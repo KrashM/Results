@@ -1,6 +1,8 @@
 // CONTROLA_02.2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+// 10т.
+
 #include <iostream>
 
 bool Condition(int input[], int size)
