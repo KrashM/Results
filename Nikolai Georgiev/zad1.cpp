@@ -1,4 +1,4 @@
-// 15т.
+// 30т.
 #include <iostream>
 #include <cstring>
 
